@@ -1,0 +1,30 @@
+apiVersion: v1
+entries:
+  piraeus:
+  - apiVersion: v2
+    appVersion: 1.10.1
+    created: "2022-12-20T10:13:02.419604711Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: ""
+      version: 0.7.5
+    description: A Helm chart for Piraeus Operator
+    digest: 1c5a0dbf2c45e388abe93bac9d760aad4b4b1c77a8f3e0618e37b528571983a8
+    home: https://piraeus.io/
+    name: piraeus
+    type: application
+    urls:
+    - https://github.com/robyrobot/piraeus-operator/releases/download/piraeus-1.10.2/piraeus-1.10.2.tgz
+    version: 1.10.2
+  pv-hostpath:
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-12-20T10:13:02.632860232Z"
+    description: Hostpath volumes for etcd persistence
+    digest: 44804e0ca8b1a4eee48bc482a47025e8c811b1144fbd8f4fa17b263e857aa8aa
+    name: pv-hostpath
+    urls:
+    - https://github.com/robyrobot/piraeus-operator/releases/download/pv-hostpath-0.3.2/pv-hostpath-0.3.2.tgz
+    version: 0.3.2
+generated: "2022-12-20T10:13:02.632865832Z"
